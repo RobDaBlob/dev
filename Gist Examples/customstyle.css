@@ -1,0 +1,27 @@
+/* ---- Beginner CSS ----
+initiate body font-size to something readable
+-- created by Lane Boyer | github.com/laneboyerre | lane.boyer.re@gmail.com --
+*/
+body {
+  font-size: 16px;
+  padding: 12px;
+}
+div {
+  margin-top:30px;
+}
+.container-main {
+  min-height: 250px;
+  width: auto;
+  background: rgba(0,230,40,0.3);
+}
+/* for div with id content_2 */
+#content_2 {
+  background: rgba(0,140,100,0.6);
+  box-shadow: 3px 3px 3px rgba(20,0,20,0.35);
+  height: 200px;
+  width: 85%;
+  padding: 10px;
+  /* when you see !important; this means it will override any pre-assigned rules. Put the ! before important and the semi-colon after. The left is correct  */
+  font-size: 88px !important; /* notice here is !important; being used. This insures the font-size will be 88px */
+  font-family: 'Raleway';
+}
